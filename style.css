@@ -599,10 +599,10 @@ align-items:  center;
 
 }
 .fa-facebook:hover{
-  color:black;
-  background-color: white;
+  color:#ff4f00;
+  background-color: black;
   transition: .5s;
-  box-shadow:0 0 20px #818181;
+  box-shadow:0 0 20px #ff4f00;
 }
 .fa-twitter{
   color:black;
@@ -611,11 +611,12 @@ align-items:  center;
 
 }
 .fa-twitter:hover{
-  color:black;
-  background-color: white;
+  color:#ff4f00;
+  background-color: black;
   transition: .5s;
-  box-shadow:0 0 20px #818181;
+  box-shadow:0 0 20px #ff4f00;
 }
+
 .fa-instagram{
   color:black;
   font-size: 30px;
@@ -623,10 +624,11 @@ align-items:  center;
 
 }
 .fa-instagram:hover{
-  color:black;
-  background-color: white;
+  color:#ff4f00;
+  background-color: black;
   transition: .5s;
-  box-shadow:0 0 20px #818181;
+  box-shadow:0 0 20px #ff4f00;
+
 }
 .social{
   text-align: center;
@@ -729,4 +731,15 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  
+  color: #ff4f00;
+}
+.mail{
+  text-decoration: none;
+  color:white;
 }
